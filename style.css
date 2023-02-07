@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidebar {
+    background-color: aqua;
+    width: 20vw;
+    height: 100vh;
+}
