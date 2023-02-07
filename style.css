@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -10,8 +12,73 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* SIDEBAR */
+
 .sidebar {
     background-color: aqua;
     width: 20vw;
     height: 100vh;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.sidebar .first-part {
+    display: grid;
+    gap: 20px;
+}
+
+.sidebar .actions {
+    display: grid;
+    grid-template-rows: repeat(6, 30px);
+}
+
+.sidebar .settings {
+    display: grid;
+    grid-template-rows: repeat(3, 30px);
+}
+
+/* HEADER */
+.header {
+    padding: 15px 10px;
+    background-color: rgb(148, 148, 255);
+    display: grid;
+    grid-template-columns: repeat(6, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, 40px);
+    gap: 5px;
+}
+
+.search {
+    display: grid;
+    grid-template-rows: 30px;
+    grid-template-columns: 50px 4fr;
+    grid-column: 1 / 4;
+    grid-row: 1;
+    text-align: center;
+}
+
+.search-input {
+    height: 30px;
+    margin-left: 20px;
+}
+
+
+.user-info {
+    grid-column: 4 / 7;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(20px, 1fr));
+    grid-template-rows: 30px;
+    background-color: aliceblue;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.container-buttons {
+    grid-column: 4 / 7;
+    grid-row: 2;
+    display: inline-grid; 
+    grid-template-columns: repeat(3, 60px); 
+    justify-content: space-evenly;
 }
