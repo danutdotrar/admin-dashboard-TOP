@@ -104,7 +104,6 @@ body {
     grid-template-columns: 50px 300px;
     grid-template-rows: 40px;
     align-items: center;
-    /* justify-content: center; */
     margin-left: 20px;
 }
 
