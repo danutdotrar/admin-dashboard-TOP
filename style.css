@@ -16,7 +16,7 @@ body {
 
 .sidebar {
     background-color: aqua;
-    max-width: 15vw;
+    min-width: 15vw;
     min-height: 100vh;
     display: grid;
     grid-template-columns: 300px;
