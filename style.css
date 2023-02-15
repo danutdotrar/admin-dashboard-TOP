@@ -38,6 +38,18 @@ body {
     grid-template-rows: repeat(3, 30px);
 }
 
+.menu {
+    display: grid;
+    grid-template-columns: repeat(2, 30px);
+    grid-template-rows: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.menu svg {
+    width: 24px;
+}
+
 /* HEADER */
 .header {
     padding: 15px 10px;
@@ -50,17 +62,22 @@ body {
 
 .search {
     display: grid;
-    grid-template-rows: 30px;
-    grid-template-columns: 60px 4fr;
     grid-column: 1 / 4;
     grid-row: 1;
+    grid-template-rows: 30px;
+    grid-template-columns: 60px 4fr;
     text-align: center;
     align-items: center;
 }
 
+.search svg {
+    width: 28px;
+    margin-left: 16px;
+}
+
 .search-input {
     height: 30px;
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 
@@ -74,6 +91,10 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
+}
+
+.user-info .bell svg {
+    width: 28px;
 }
 
 .container-buttons {
@@ -145,9 +166,23 @@ body {
 }
 
 .content {
+    display: grid;
+    grid-template-rows: 3fr 30px;
     background-color: #fff;
-    height: 320px;
+    height: 260px;
     /* width: 200px; */
+}
+
+.container-svg {
+    /* grid-row: 6; */
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+}
+
+.content svg {
+    width: 24px;
+
 }
 
 /* RIGHT SIDE */
