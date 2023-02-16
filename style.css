@@ -190,6 +190,14 @@ body {
     grid-template-rows: 3fr 30px;
     background-color: #fff;
     height: 260px;
+    padding: 16px;
+    border-radius: 5px;
+    border-left: 5px solid red;
+}
+
+.content .title {
+    font-weight: bold;
+    margin-bottom: 16px;
 }
 
 .container-svg {
@@ -200,7 +208,10 @@ body {
 
 .container-svg svg {
     width: 22px;
+}
 
+.about {
+    margin-top: 10px;
 }
 
 /* RIGHT SIDE */
@@ -219,11 +230,13 @@ body {
 }
 
 .main-title {
+    font-weight: bold;
     margin-bottom: 15px;
 }
 
 .announce .title {
     font-weight: bold;
+    margin-bottom: 4px;
 }
 
 .announce .text {
@@ -238,8 +251,4 @@ body {
 
 .container-trending .person {
     margin-bottom: 20px;
-}
-
-.title {
-    margin-bottom: 5px;
 }
