@@ -85,16 +85,17 @@ body {
     grid-column: 4 / 7;
     grid-row: 1;
     display: grid;
-    grid-template-columns: repeat(3, minmax(20px, 120px));
+    grid-template-columns: repeat(3, minmax(20px, 80px));
     grid-template-rows: 30px;
     background-color: aliceblue;
     justify-content: center;
     text-align: center;
     align-items: center;
+    gap: 20px;
 }
 
 .user-info .bell svg {
-    width: 28px;
+    width: 22px;
 }
 
 .container-buttons {
@@ -180,8 +181,8 @@ body {
     justify-content: flex-end;
 }
 
-.content svg {
-    width: 24px;
+.container-svg svg {
+    width: 22px;
 
 }
 
