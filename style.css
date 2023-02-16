@@ -98,6 +98,13 @@ body {
 .search-input {
     height: 30px;
     margin-left: 0px;
+    border-radius: 25px;
+    padding: 0 10px;
+    border: none;
+}
+
+.search-input:focus {
+    outline: none;
 }
 
 
@@ -116,6 +123,18 @@ body {
 
 .user-info .bell svg {
     width: 22px;
+}
+
+.user-info .icon img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.intro .icon-big img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
 }
 
 .container-buttons {
@@ -210,6 +229,8 @@ body {
     width: 22px;
 }
 
+
+
 .about {
     margin-top: 10px;
 }
@@ -217,7 +238,7 @@ body {
 /* RIGHT SIDE */
 .right-side {
     display: grid;
-    grid-template-rows: 400px 400px;
+    grid-template-rows: 0.8fr 0.6fr;
     gap: 30px;
     grid-row: 1;
     grid-column: 2;
@@ -227,6 +248,20 @@ body {
 /* ANNOUNCE */
 .announcements {
     padding-top: 30px;
+    border-radius: 5px;
+}
+
+.announce {
+    border-bottom: 1px solid black;
+}
+
+.announce:last-child {
+    border-bottom: 0;
+}
+
+.container-announce {
+    background-color: red;
+    padding: 16px;
 }
 
 .main-title {
@@ -236,7 +271,7 @@ body {
 
 .announce .title {
     font-weight: bold;
-    margin-bottom: 4px;
+    margin-top: 16px;
 }
 
 .announce .text {
@@ -247,6 +282,7 @@ body {
 /* TRENDING */
 .trending {
     background-color: rgb(227, 150, 255);
+    border-radius: 5px;
 }
 
 .container-trending .person {
