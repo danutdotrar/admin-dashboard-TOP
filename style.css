@@ -247,8 +247,8 @@ body {
 
 /* ANNOUNCE */
 .announcements {
-    padding-top: 30px;
     border-radius: 5px;
+    padding: 30px 20px 0 20px;
 }
 
 .announce {
@@ -281,8 +281,34 @@ body {
 
 /* TRENDING */
 .trending {
-    background-color: rgb(227, 150, 255);
     border-radius: 5px;
+    padding: 0 20px;
+}
+
+.person {
+    display: grid;
+    grid-template-columns: 0.2fr 0.7fr;
+    grid-template-rows: 20px 24px;
+    align-items: center;
+}
+
+.person .icon {
+    /* text-align: center; */
+    grid-row: 1 / 3;
+}
+
+.person .icon img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+
+.container-trending {
+    background-color: rgb(227, 150, 255);
+    padding: 20px;    
 }
 
 .container-trending .person {
