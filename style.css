@@ -177,7 +177,7 @@ body {
 }
 
 .greeting .greet {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .greeting {
@@ -218,6 +218,7 @@ body {
     padding: 16px;
     border-radius: 5px;
     border-left: 5px solid #7cbbc4;
+    box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.3);
 }
 
 .content .title {
@@ -233,6 +234,7 @@ body {
 
 .container-svg svg {
     width: 22px;
+    cursor: pointer;
 }
 
 
@@ -246,7 +248,7 @@ body {
     display: grid;
     grid-template-rows: 450px 400px;
     grid-template-columns: 300px;
-    gap: 10px;
+    gap: 30px;
     grid-row: 1;
     grid-column: 2;
 }
@@ -261,6 +263,7 @@ body {
 
 .announce {
     border-bottom: 1px solid #bfbfc7;
+    margin-bottom: 16px;
 }
 
 .announce:last-child {
@@ -271,6 +274,7 @@ body {
     border-radius: 5px;
     background-color: #f3f4f6;
     padding: 16px;
+    box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.3);
 }
 
 .main-title {
@@ -280,7 +284,7 @@ body {
 
 .announce .title {
     font-weight: bold;
-    margin-top: 16px;
+    /* margin-top: 16px; */
     padding-bottom: 8px;
 }
 
@@ -294,6 +298,17 @@ body {
 .trending {
     grid-row: 2;
     padding: 0 20px;
+}
+
+.container-trending {
+    background-color: #f3f4f6;
+    padding: 20px;    
+    border-radius: 5px;
+    box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.3);
+}
+
+.container-trending .person {
+    margin-bottom: 20px;
 }
 
 .person {
@@ -324,13 +339,3 @@ body {
     font-size: 14px;
 }
 
-
-.container-trending {
-    background-color: #f3f4f6;
-    padding: 20px;    
-    border-radius: 5px;
-}
-
-.container-trending .person {
-    margin-bottom: 20px;
-}
