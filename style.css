@@ -217,7 +217,7 @@ body {
     height: 260px;
     padding: 16px;
     border-radius: 5px;
-    border-left: 5px solid #718dac;
+    border-left: 5px solid #7cbbc4;
 }
 
 .content .title {
@@ -260,7 +260,7 @@ body {
 }
 
 .announce {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #bfbfc7;
 }
 
 .announce:last-child {
@@ -281,10 +281,12 @@ body {
 .announce .title {
     font-weight: bold;
     margin-top: 16px;
+    padding-bottom: 8px;
 }
 
 .announce .text {
     margin-bottom: 15px;
+    font-size: 16px;
 }
 
 
@@ -312,6 +314,14 @@ body {
     border-radius: 50%;
     object-fit: cover;
     margin-right: 10px;
+}
+
+.person .id {
+    font-weight: 500;
+}
+
+.person .status {
+    font-size: 14px;
 }
 
 
