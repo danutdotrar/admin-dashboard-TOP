@@ -15,7 +15,7 @@ body {
 /* SIDEBAR */
 
 .sidebar {
-    background-color: #67e8f9;
+    background-color: #3A4454;
     min-width: 15vw;
     min-height: 100vh;  
     display: grid;
@@ -64,16 +64,18 @@ body {
 
 .menu span {
     font-weight: 500;
+    color: #fff;
 }
 
 .menu svg {
     width: 20px;
+    fill: #fff;
 }
 
 /* HEADER */
 .header {
     padding: 15px 10px;
-    background-color: #ecfeff;
+    background-color: #7cbbc4;
     display: grid;
     grid-template-columns: repeat(6, minmax(100px, 1fr));
     grid-template-rows: repeat(2, 40px);
@@ -112,16 +114,16 @@ body {
 
 
 .user-info {
-    grid-column: 4 / 7;
+    grid-column: 5 / 7;
     grid-row: 1;
     display: grid;
     grid-template-columns: repeat(3, minmax(20px, 80px));
     grid-template-rows: 30px;
-    background-color: aliceblue;
     justify-content: center;
     text-align: center;
     align-items: center;
     gap: 20px;
+    font-weight: 500;
 }
 
 .user-info .bell svg {
@@ -141,13 +143,12 @@ body {
 }
 
 .container-buttons {
-    grid-column: 4 / 7;
+    grid-column: 5 / 7;
     grid-row: 2;
     display: grid; 
     grid-template-columns: repeat(3, 60px); 
     justify-content: center;
     gap: 50px;
-    background-color: aliceblue;
     align-items: center;
 }
 
@@ -155,7 +156,7 @@ body {
     border-radius: 25px;
     cursor: pointer;
     border: 0;
-    background-color:darkcyan;
+    background-color: #3A4454;
     color: #fff;
     height: 30px;
     width: 80px;
@@ -164,7 +165,6 @@ body {
 .intro {
     grid-row: 2;
     grid-column: 1 / 4;
-    background-color: aliceblue;
     display: grid;
     grid-template-columns: 50px 300px;
     grid-template-rows: 40px;
@@ -189,7 +189,8 @@ body {
 .main-content {
     display: grid;
     grid-template-columns: 10fr 0.3fr;
-    background-color: #ebebeb;
+    min-height: 100vh;
+    background-color: #e5e5ee;
 }
 
 /* PROJECTS */
@@ -216,7 +217,7 @@ body {
     height: 260px;
     padding: 16px;
     border-radius: 5px;
-    border-left: 5px solid rgb(134, 134, 134);
+    border-left: 5px solid #718dac;
 }
 
 .content .title {
@@ -268,7 +269,7 @@ body {
 
 .container-announce {
     border-radius: 5px;
-    background-color: red;
+    background-color: #f3f4f6;
     padding: 16px;
 }
 
@@ -315,7 +316,7 @@ body {
 
 
 .container-trending {
-    background-color: rgb(227, 150, 255);
+    background-color: #f3f4f6;
     padding: 20px;    
     border-radius: 5px;
 }
