@@ -15,7 +15,7 @@ body {
 /* SIDEBAR */
 
 .sidebar {
-    background-color: aqua;
+    background-color: #60a5fa;
     min-width: 15vw;
     min-height: 100vh;  
     display: grid;
@@ -78,6 +78,9 @@ body {
     grid-template-columns: repeat(6, minmax(100px, 1fr));
     grid-template-rows: repeat(2, 40px);
     gap: 5px;
+    box-shadow: 0 0 8px 5px rgba(148, 148, 148, 0.5);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 120%);
+
 }
 
 .search {
@@ -143,18 +146,19 @@ body {
     display: grid; 
     grid-template-columns: repeat(3, 60px); 
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
     background-color: aliceblue;
     align-items: center;
 }
 
 .container-buttons button {
-    border-radius: 5px;
+    border-radius: 25px;
     cursor: pointer;
     border: 0;
     background-color:darkcyan;
     color: #fff;
     height: 30px;
+    width: 80px;
 }
 
 .intro {
@@ -184,7 +188,7 @@ body {
 
 .main-content {
     display: grid;
-    grid-template-columns: 2fr 0.6fr;
+    grid-template-columns: 10fr 0.3fr;
 }
 
 /* PROJECTS */
@@ -192,14 +196,14 @@ body {
     grid-row: 1;
     grid-column: 1;
     padding: 30px;
-    background-color: blueviolet;
+    /* background-color: ; */
 }
 
 .container-projects {
     grid-column: 1;
     grid-row: 1;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
     grid-template-rows: repeat(2, 1fr);
     gap: 30px;
 }
@@ -238,8 +242,9 @@ body {
 /* RIGHT SIDE */
 .right-side {
     display: grid;
-    grid-template-rows: 0.8fr 0.6fr;
-    gap: 30px;
+    grid-template-rows: 450px 400px;
+    grid-template-columns: 300px;
+    gap: 10px;
     grid-row: 1;
     grid-column: 2;
 }
@@ -247,6 +252,7 @@ body {
 
 /* ANNOUNCE */
 .announcements {
+    grid-row: 1;
     border-radius: 5px;
     padding: 30px 20px 0 20px;
 }
@@ -282,6 +288,7 @@ body {
 
 /* TRENDING */
 .trending {
+    grid-row: 2;
     padding: 0 20px;
 }
 
