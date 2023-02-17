@@ -15,7 +15,7 @@ body {
 /* SIDEBAR */
 
 .sidebar {
-    background-color: #60a5fa;
+    background-color: #67e8f9;
     min-width: 15vw;
     min-height: 100vh;  
     display: grid;
@@ -73,7 +73,7 @@ body {
 /* HEADER */
 .header {
     padding: 15px 10px;
-    background-color: rgb(148, 148, 255);
+    background-color: #ecfeff;
     display: grid;
     grid-template-columns: repeat(6, minmax(100px, 1fr));
     grid-template-rows: repeat(2, 40px);
@@ -189,6 +189,7 @@ body {
 .main-content {
     display: grid;
     grid-template-columns: 10fr 0.3fr;
+    background-color: #ebebeb;
 }
 
 /* PROJECTS */
@@ -211,11 +212,11 @@ body {
 .content {
     display: grid;
     grid-template-rows: 3fr 30px;
-    background-color: #fff;
+    background-color: #f3f4f6;
     height: 260px;
     padding: 16px;
     border-radius: 5px;
-    border-left: 5px solid red;
+    border-left: 5px solid rgb(134, 134, 134);
 }
 
 .content .title {
